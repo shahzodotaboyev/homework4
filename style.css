@@ -404,13 +404,16 @@
   .contianer header .header-links img {
     display: none;
   }
+  .contianer main .section1 {
+    flex-direction: column;
+  }
   .contianer main .section1 .work {
     width: 100%;
     align-items: center;
     margin-top: 30px;
   }
   .contianer main .section1 img {
-    display: none;
+    width: 50%;
   }
   .contianer main .section3 .management .management-text {
     display: flex;
