@@ -265,6 +265,44 @@
   font-weight: 700;
   margin-top: 10px;
 }
+.contianer main .section5 {
+  margin-top: 150px;
+}
+.contianer main .section5 .s5-h1 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-color);
+}
+.contianer main .section5 .s5-p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--text-color);
+}
+.contianer main .section5 .price_tables {
+  display: flex;
+  justify-content: space-between;
+}
+.contianer main .section5 .price_tables .table {
+  width: 322px;
+  height: 456px;
+  border: 1px solid rgba(128, 128, 128, 0.349);
+  border-radius: 10px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contianer main .section5 .price_tables .table h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.contianer main .section5 .price_tables .table p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
 
 @media (max-width: 1300px) {
   .contianer header,

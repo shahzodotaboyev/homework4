@@ -274,6 +274,7 @@
 
         .section4 {
             margin-top: 150px;
+
             h1 {
                 font-size: 34px;
                 font-weight: 700;
@@ -323,6 +324,53 @@
                     }
                 }
 
+            }
+        }
+
+        .section5 {
+            margin-top: 150px;
+
+            .s5-h1 {
+                font-size: 34px;
+                font-weight: 700;
+                text-align: center;
+                color: var(--text-color)
+            }
+
+            .s5-p {
+                font-size: 16px;
+                font-weight: 500;
+                text-align: center;
+                color: var(--text-color)
+            }
+
+            .price_tables {
+                display: flex;
+                justify-content: space-between;
+
+                .table {
+                    width: 322px;
+                    height: 456px;
+                    border: 1px solid rgba(128, 128, 128, 0.349);
+                    border-radius: 10px;
+                    padding: 32px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h2 {
+                        font-size: 24px;
+                        font-weight: 700;
+
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: var(--text-color);
+                    }
+
+                }
             }
         }
     }
