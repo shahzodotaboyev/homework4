@@ -273,10 +273,12 @@
         }
 
         .section4 {
+            margin-top: 150px;
             h1 {
                 font-size: 34px;
                 font-weight: 700;
                 color: var(--text-color);
+                margin-bottom: 10px;
 
             }
 
@@ -291,6 +293,7 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                margin-top: 50px;
 
                 .contents-card {
                     width: 348px;

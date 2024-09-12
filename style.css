@@ -224,10 +224,14 @@
 .contianer main .section3 .management img {
   width: 50%;
 }
+.contianer main .section4 {
+  margin-top: 150px;
+}
 .contianer main .section4 h1 {
   font-size: 34px;
   font-weight: 700;
   color: var(--text-color);
+  margin-bottom: 10px;
 }
 .contianer main .section4 p {
   font-size: 16px;
@@ -238,6 +242,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 .contianer main .section4 .contents-cards .contents-card {
   width: 348px;
@@ -265,6 +270,13 @@
   .contianer header,
   .contianer main {
     padding: 0 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .contianer main .section4 .contents-cards {
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 900px) {
@@ -308,6 +320,11 @@
   .contianer main .section3 .management img {
     display: none;
   }
+  .contianer main .section4 .contents-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 @media (max-width: 570px) {
   .contianer header .logo img,
@@ -342,5 +359,11 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+  }
+  .contianer main .section4 h1 {
+    font-size: 25px;
+  }
+  .contianer main .section4 .contents-cards .contents-card {
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
