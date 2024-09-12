@@ -283,6 +283,7 @@
 .contianer main .section5 .price_tables {
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 }
 .contianer main .section5 .price_tables .table {
   width: 322px;
@@ -292,16 +293,72 @@
   padding: 32px;
   display: flex;
   flex-direction: column;
+  gap: 16px;
   align-items: center;
 }
 .contianer main .section5 .price_tables .table h2 {
   font-size: 24px;
   font-weight: 700;
 }
+.contianer main .section5 .price_tables .table .in-table {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.contianer main .section5 .price_tables .table .in-table h1 {
+  font-size: 76px;
+  font-weight: 700;
+  color: var(--text-color2);
+}
+.contianer main .section5 .price_tables .table .in-table div {
+  display: flex;
+  flex-direction: column;
+}
+.contianer main .section5 .price_tables .table .in-table div b {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-color2);
+  text-align: start;
+}
+.contianer main .section5 .price_tables .table .in-table div p {
+  font-size: 16px;
+  color: #AFAFAF;
+}
 .contianer main .section5 .price_tables .table p {
   font-size: 16px;
   font-weight: 400;
   color: var(--text-color);
+}
+.contianer main .section5 .price_tables .table button {
+  width: 140px;
+  height: 44px;
+  border: none;
+  background: var(--text-color2);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.contianer main .section5 .price_tables .center-table {
+  background: var(--text-color2);
+  color: #fff;
+}
+.contianer main .section5 .price_tables .center-table p {
+  color: #fff;
+}
+.contianer main .section5 .price_tables .center-table .in-table {
+  color: #fff;
+}
+.contianer main .section5 .price_tables .center-table .in-table h1 {
+  color: #fff;
+}
+.contianer main .section5 .price_tables .center-table .in-table div b {
+  color: white;
+  font-weight: normal;
+}
+.contianer main .section5 .price_tables .center-table button {
+  background: #fff;
+  color: var(--text-color2);
 }
 
 @media (max-width: 1300px) {
@@ -315,6 +372,12 @@
     display: grid;
     row-gap: 30px;
     grid-template-columns: 1fr 1fr;
+  }
+  .contianer main .section5 .price_tables {
+    display: grid;
+    padding: 60px;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
   }
 }
 @media (max-width: 900px) {
@@ -363,6 +426,12 @@
     flex-direction: column;
     gap: 30px;
   }
+  .contianer main .section5 .price_tables {
+    padding: 0;
+  }
+  .contianer main .section5 .price_tables .table {
+    width: 290px;
+  }
 }
 @media (max-width: 570px) {
   .contianer header .logo img,
@@ -403,5 +472,11 @@
   }
   .contianer main .section4 .contents-cards .contents-card {
     width: 300px;
+  }
+  .contianer main .section5 .price_tables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

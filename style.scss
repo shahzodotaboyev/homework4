@@ -347,6 +347,7 @@
             .price_tables {
                 display: flex;
                 justify-content: space-between;
+                margin-top: 60px;
 
                 .table {
                     width: 322px;
@@ -356,6 +357,7 @@
                     padding: 32px;
                     display: flex;
                     flex-direction: column;
+                    gap: 16px;
                     align-items: center;
 
                     h2 {
@@ -364,13 +366,86 @@
 
                     }
 
+                    .in-table {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+
+
+                        h1 {
+                            font-size: 76px;
+                            font-weight: 700;
+                            color: var(--text-color2);
+                        }
+
+                        div {
+                            display: flex;
+                            flex-direction: column;
+
+                            b {
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: var(--text-color2);
+                                text-align: start;
+                            }
+
+                            p {
+                                font-size: 16px;
+                                color: #AFAFAF;
+                            }
+
+
+                        }
+                    }
+
                     p {
                         font-size: 16px;
                         font-weight: 400;
                         color: var(--text-color);
                     }
 
+                    button {
+                        width: 140px;
+                        height: 44px;
+                        border: none;
+                        background: var(--text-color2);
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: 500;
+                        border-radius: 10px
+                    }
+
                 }
+
+                .center-table {
+                    background: var(--text-color2);
+                    color: #fff;
+
+                    p {
+                        color: #fff;
+                    }
+
+                    .in-table {
+                        color: #fff;
+
+                        h1 {
+                            color: #fff
+                        }
+
+                        div {
+                            b {
+                                color: #ffff;
+                                font-weight: normal;
+                            }
+                        }
+                    }
+
+                    button {
+                        background: #fff;
+                        color: var(--text-color2)
+                    }
+                }
+
             }
         }
     }
