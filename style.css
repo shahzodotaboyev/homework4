@@ -224,6 +224,42 @@
 .contianer main .section3 .management img {
   width: 50%;
 }
+.contianer main .section4 h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.contianer main .section4 p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.contianer main .section4 .contents-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contianer main .section4 .contents-cards .contents-card {
+  width: 348px;
+  height: 355px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.356);
+}
+.contianer main .section4 .contents-cards .contents-card img {
+  width: 100%;
+}
+.contianer main .section4 .contents-cards .contents-card .contents-card-text {
+  padding: 25px;
+}
+.contianer main .section4 .contents-cards .contents-card .contents-card-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.contianer main .section4 .contents-cards .contents-card .contents-card-text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
 
 @media (max-width: 1300px) {
   .contianer header,
